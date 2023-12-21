@@ -28,3 +28,12 @@ I can also be reached via [telegram](https://t.me/bleki42).
         })()
     </script>
 </div>
+
+## Webrings!!
+I like webrings.
+
+<a href="https://webring.haaien.xyz/#1" target="_blank" rel="noopener">
+    <img src="/hairing.gif" alt="A button saying haaien webring" height='31px' width='88px'/></a>
+<a href="https://acingtheinternet.netlify.app" target="_blank" rel="noopener">
+    <img src="/acenow.gif" alt="A button saying asexuals now" height='31px' width='88px'>
+</a>
