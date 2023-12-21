@@ -28,3 +28,36 @@
         text-align: left;
     }
 }
+
+@keyframes fader-fade {
+    0% {
+        opacity: 1;
+        background: black;
+    }
+    to {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.fader {
+    background: black;
+    z-index: 3;
+
+    animation: fader-fade 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p {
+        animation: fader-fade 1s;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+    }
+}
