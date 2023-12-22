@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>{{ page.title }}</h2>
+<noscript>
+    Your browser doesn't support JS. This is so cool!
+</noscript>
+
+<div class='md-content'>
+    {{ page.content | safe }}
+</div>
+
+{% endblock content %}
