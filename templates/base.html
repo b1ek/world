@@ -43,5 +43,8 @@
         </div>
 
         <script src='/script/cursor.min.js' type='application/javascript'></script>
+        <script>
+            for(var jsel=document.getElementsByClassName("js-only"),i=0;i<jsel.length;i++){var el=jsel.item(i);null!=el&&(el.className=el.className.replace("js-only",""))}delete jsel,delete i,delete el
+        </script>
     </body>
 </html>
