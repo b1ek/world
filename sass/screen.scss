@@ -24,6 +24,8 @@
     left: 50%;
     transform: translateX(-50%);
 
+    overflow-y: auto;
+
     .md-content {
         text-align: left;
     }
