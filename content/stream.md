@@ -95,3 +95,12 @@ title = 'The stream of consciousness'
 <span class='thought' style='top: calc(60% + 30px); left: 34%;animation-delay:-14s'>
     Those are <b>OUR</b> thoughts now.
 </span>
+
+
+<span class='thought' style='bottom: 23%; left: 7%;animation-delay:-3s'>
+    Should I
+    <a href='/die'>Escape</a>
+    or
+    <a href='/escape'>Die</a>
+    ?
+</span>
