@@ -29,6 +29,9 @@ I can also be reached via [telegram](https://t.me/bleki42).
     </script>
 </div>
 
+I also made a lil badge to show if i am currently online. Cool, huh?  
+<img src='https://online.blek.codes/gif' height='31px' width='88px' alt='A badge showing if i am online or not. Sorry, the only way to know it is to load the gif. It would be all greeny if i am online' />
+
 ## Webrings!!
 I like webrings.
 
