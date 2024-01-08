@@ -40,6 +40,8 @@ My instance is running [here](https://file.blek.codes). Check the [git repo](htt
 It is built on Rust and [Warp](https://github.com/seanmonstar/warp) and is divided onto a lot of microservices which are managed via docker-compose.
 
 ### 2. blek! World
+[Project page](/projects/world)
+
 Its this website!! It is actually a redesign of the old version which i think i might keep [here](https://old-1.blek.codes) (expect this link to be dead). You can also check out the archive.org archived copies.
 
 It is built on [zola](https://getzola.org), which generates static .HTML files you can put anywhere.
