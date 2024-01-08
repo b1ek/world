@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>{{ page.title }}</h2>
+<noscript>
+    Your browser doesn't support JS. This is so cool!
+</noscript>
+
+<div class='proj-profile' style='text-align: left'>
+    <h2>Project summary</h2>
+    <ul>
+        <li>
+            Git repo: <a href='https://{{ page.extra.git_repo }}'>{{ page.extra.git_repo }}</a>
+        </li>
+        <li>
+            Online demo: <a href='https://{{ page.extra.demo_url }}'>{{ page.extra.demo_url }}</a>
+        </li>
+        <li>
+            Author: <code>{{ page.extra.author }}</code>
+        </li>
+        <li>
+            License: <code>{{ page.extra.license }}</code>
+        </li>
+    </ul>
+</div>
+
+<div class='md-content'>
+    {{ page.content | safe }}
+</div>
+
+{% endblock content %}

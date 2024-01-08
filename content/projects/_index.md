@@ -31,6 +31,8 @@ win7sim,https://github.com/b1ek/win7-sim,NONE,false
 # The List
 
 ### 1. blek! File 🌠
+[Project page](/projects/file)
+
 It is supposed to be a file sharing platform, like [`0x0.st`](https://0x0.st), but with a funny GUI & extended functionality.
 
 My instance is running [here](https://file.blek.codes). Check the [git repo](https://git.blek.codes/blek/bfile) for other instances.
