@@ -70,6 +70,8 @@ This one is a single docker container that runs your laravel app with production
 It is built on a bunch of shell scripts and dockerfiles.
 
 ### 6. blek! Wordle
+[Project page](/projects/wordle)
+
 A FOSS copy of the [wordle game](https://www.nytimes.com/games/wordle/index.html).
 
 Built with Svelte.
