@@ -47,11 +47,15 @@ Its this website!! It is actually a redesign of the old version which i think i 
 It is built on [zola](https://getzola.org), which generates static .HTML files you can put anywhere.
 
 ### 3. blek! Bin
+[Project page](/projects/bin)
+
 A simple ass pastebin copy. Also has a funny HTML-only captcha that has not been cracked so far.
 
 It is built on express and stores data in simple files.
 
 ### 4. blek! EOL
+[Project page](/projects/eol)
+
 The super secret letter and a website that will be displayed in the case of my death. Don't tell anyone, ok?
 
 It works by pinging all my devices each hour and prompting me to enter a 6-digit PIN code to tell the service i am still alive. If i enter the code wrong, it assumes i am dead and someone tries to pick the code.
