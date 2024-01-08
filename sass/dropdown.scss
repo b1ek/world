@@ -1,0 +1,6 @@
+.dropdown {
+    display: none;
+    &:target {
+        display: block;
+    }
+}
