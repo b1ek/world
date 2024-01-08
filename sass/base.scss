@@ -34,3 +34,12 @@ hr {
 a, a:visited {
     color: #00a8a8;
 }
+
+.title-a {
+    color: #c1c4c1 !important;
+    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: underline !important;
+    }
+}
