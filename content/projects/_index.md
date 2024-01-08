@@ -82,6 +82,8 @@ Built with Svelte.
 My own implementation of an SSO. It is supposed to be OAuth2 compatible, but then i learned that OIDC exists so i abandoned this project. It is written in Laravel and PHP8.
 
 ### 8. VRPLauncher
+[Project page](/projects/vrp-launch)
+
 A minecraft launcher for my server. It has custom license which will in no way survive in court and is built on WinForms of all things.
 
 It does its job, though. Like, it has been written before microsoft accounts for minecraft so you probably couldn't log in, but you can run minecraft from it.
