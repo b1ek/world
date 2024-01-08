@@ -22,7 +22,7 @@ blek! Bin,https://bin.blek.codes,GPL-3.0-only,false
 blek! EOL,https://eol.blek.codes,PRIVATE,false
 blek! Sail,https://github.com/b1ek/sail,NONE,false
 blek! Wordle,https://wordle.blek.codes,NONE,false
-blek! ID,https://github.com/b1ek/blekID,true
+blek! ID,https://github.com/b1ek/blekID,MIT,true
 VRPLauncher,https://github.com/b1ek/VRPLauncher,false
 win7sim,https://github.com/b1ek/win7-sim,NONE,false
     </pre>
@@ -77,6 +77,8 @@ A FOSS copy of the [wordle game](https://www.nytimes.com/games/wordle/index.html
 Built with Svelte.
 
 ### 7. blek! ID
+[Project page](/projects/id)
+
 My own implementation of an SSO. It is supposed to be OAuth2 compatible, but then i learned that OIDC exists so i abandoned this project. It is written in Laravel and PHP8.
 
 ### 8. VRPLauncher
