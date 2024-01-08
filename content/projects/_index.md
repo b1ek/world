@@ -91,6 +91,8 @@ It does its job, though. Like, it has been written before microsoft accounts for
 It also relies upon [this library](https://github.com/CmlLib/CmlLib.Core) to manage all the launcher stuff.
 
 ### 9. Windows 7 simulator
+[Project page](/projects/win7-sim)
+
 I built this for fun using the most horrible web practices one could think of.
 
 Have fun going through the [github repo](https://github.com/b1ek/win7-sim) if you want to waste some of your time.
