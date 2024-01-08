@@ -61,6 +61,8 @@ The super secret letter and a website that will be displayed in the case of my d
 It works by pinging all my devices each hour and prompting me to enter a 6-digit PIN code to tell the service i am still alive. If i enter the code wrong, it assumes i am dead and someone tries to pick the code.
 
 ### 5. blek! Sail
+[Project page](/projects/sail)
+
 If you use laravel you know a development tool called Laravel Sail.
 
 This one is a single docker container that runs your laravel app with production optimizations.
