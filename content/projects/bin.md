@@ -14,7 +14,7 @@ lang = 'en'
 git_repo = 'git.blek.codes/blek/bin.git'
 demo_url = 'bin.blek.codes'
 author = 'b1ek <me@blek.codes>'
-license = 'GPL-3.0-only'
+license = 'None'
 +++
 
 A simple ass pastebin copy. Also has a funny HTML-only captcha that has not been cracked so far.
