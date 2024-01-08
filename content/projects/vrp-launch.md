@@ -1,8 +1,8 @@
 +++
 template = 'custom/project.html'
 
-title = 'blek! Bin'
-description = 'A pastebin copy'
+title = 'VRPLauncher'
+description = 'A minecraft launcher'
 date = '2024-08-01'
 slug = 'vrp-launch'
 year = 2024
