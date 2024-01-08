@@ -4,6 +4,8 @@ title = 'Projects'
 
 <link href='/dropdown.css' rel='stylesheet'>
 
+[go home](/)
+
 ## Preamble
 I love doing weird ass shit. Almost none of these projects are completely finished and are ready for production deployment, but have fun!
 
