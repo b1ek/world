@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>{{ section.title }}</h2>
+<noscript>
+    Your browser doesn't support JS. This is so cool!
+</noscript>
+
+<div class='md-content'>
+    {{ section.content | safe }}
+</div>
+
+{% for year, posts in section.pages | group_by(attribute="year") %}
+    <h2>Posts for {{ year }}</h2>
+
+    <ul style='list-style:none;text-align:left;padding-left:0'>
+        {% for post in posts %}
+            <li>
+                <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+                <p style='margin-bottom:0'>{{ post.description }}</p>
+                
+                <p style='color:gray;font-size:90%'>
+                    Date: {{ post.date }} <br/>
+                    Author: {{ post.extra.author }}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <hr/>
+{% endfor %}
+
+
+{% endblock content %}

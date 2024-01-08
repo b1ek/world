@@ -36,6 +36,9 @@ I also made a lil badge to show if i am currently online. Cool, huh?
 ## Projects
 You can find the list of my projects [here](/projects).
 
+## Blog
+See [here](/blog)
+
 ## Webrings!!
 I like webrings.
 
