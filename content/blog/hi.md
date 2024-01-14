@@ -3,7 +3,7 @@ template = 'custom/blog-post.html'
 
 title = 'Hi!'
 description = 'First post here!'
-date = '2024-08-01'
+date = '2024-01-08'
 slug = 'hi'
 year = 2024
 month = 1
