@@ -11,6 +11,10 @@
     {{ section.content | safe }}
 </div>
 
+{% endblock content %}
+
+{% block root %}
+
 <div class='screen fader'>
     <p>
         <img src='/load.gif' width='46px' height='48px' style='margin-bottom:8px' /><br/>
@@ -25,4 +29,4 @@
     </p>
 </div>
 
-{% endblock content %}
+{% endblock root %}
