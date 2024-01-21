@@ -9,10 +9,17 @@ h3 {
 }
 
 hr {
-    background: transparent;
-    height: 0px;
+    margin: 12px 0;
+    background: linear-gradient(90deg, #FE0000 16.66%,
+		#FD8C00 16.66%, 33.32%,
+		#CEB600 33.32%, 49.98%,
+		#119F0B 49.98%, 66.64%,
+		#0644B3 66.64%, 83.3%,
+		#B11DCB 83.3%);
+    height: 1px;
+    width: 100%;
+    max-width: 300px;
     border: 0;
-    border-bottom: 1px solid #323432;
 }
 
 .md-content {
