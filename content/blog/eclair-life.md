@@ -10,8 +10,8 @@ month = 1
 day = 28
 lang = 'en'
 
-[taxonomies]
-tags = ["showerthoughts"]
+# [taxonomies]
+# tags = ["showerthoughts"]
 
 [extra]
 author = 'b1ek <me@blek.codes>'
