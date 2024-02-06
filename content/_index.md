@@ -55,3 +55,8 @@ Reject social media. It's evil
 ### World's thoughts
 
 Did you ever wonder what a [caterpillar](/caterpillar) looks like?
+
+### Links
+- [a funny techy podcast](https://www.youtube.com/@tsarp)
+
+
