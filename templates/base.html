@@ -35,9 +35,22 @@
         </div>
         {% block root %} {% endblock %}
 
+	<script>
+
+		var elements = document.getElementsByClassName('js-only');
+		var array_elements = [];
+		for (var i = 0; i != elements.length; i++) {
+			array_elements.push(elements.item(i));
+		}
+
+		delete elements; delete i;
+
+		for (var i = 0; i != array_elements.length; i++) {
+			array_elements[i].className = array_elements[i].className.replace('js-only', '')
+		}
+
+	</script>
         <script src='/script/cursor.min.js' type='application/javascript'></script>
-        <script>
-            for(var jsel=document.getElementsByClassName("js-only"),i=0;i<jsel.length;i++){var el=jsel.item(i);null!=el&&(el.className=el.className.replace("js-only",""))}delete jsel,delete i,delete el
-        </script>
+        <script async src="https://umami.blek.codes/script.js" data-website-id="8a705ac4-37db-4300-a5a2-4a6e2a8c8960"></script>
     </body>
 </html>
