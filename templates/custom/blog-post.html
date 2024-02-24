@@ -2,7 +2,10 @@
 
 {% block content %}
 
-<h2>{{ page.title }}</h2>
+<h2 style='margin-bottom:0'>{{ page.title }}</h2>
+{% if page.description %}
+	<h4 style='margin-top:0;font-size:80%'>{{ page.description }}</h4>
+{% endif %}
 <noscript>
     Your browser doesn't support JS. This is so cool!
 </noscript>
