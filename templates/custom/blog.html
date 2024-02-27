@@ -15,7 +15,7 @@
     <h2>Posts for {{ year }}</h2>
 
     <ul style='list-style:none;text-align:left;padding-left:0'>
-        {% for post in posts %}
+        {% for post in posts | sort(attribute="date") | reverse %}
             <li>
                 <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
                 <p style='margin-bottom:0'>{{ post.description }}</p>
