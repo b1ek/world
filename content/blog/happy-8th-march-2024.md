@@ -3,7 +3,7 @@ template = 'custom/blog-post.html'
 
 title = 'happy 8th march to yall'
 description = 'i am quite sad on this day'
-date = '2024-03-8'
+date = '2024-03-08'
 slug = 'happy-8th-march-2024'
 year = 2024
 month = 3
