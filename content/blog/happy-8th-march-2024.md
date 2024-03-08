@@ -1,7 +1,7 @@
 +++
 template = 'custom/blog-post.html'
 
-title = 'happy 8th march to y\'all'
+title = 'happy 8th march to yall'
 description = 'i am quite sad on this day'
 date = '2024-03-8'
 slug = 'happy-8th-march-2024'
