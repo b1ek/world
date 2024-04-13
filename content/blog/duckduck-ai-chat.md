@@ -55,6 +55,8 @@ also the `/duckchat/v1/chat` request gives you the new VQD which you gotta use f
 
 i guess someone could fashion a cli program to read data from that API and print it out in the console.
 
+upd a few days later: i did. [heres the link](https://git.blek.codes/blek/hey)
+
 ## the verdict
 i think its safe to say that no identity data is collected via the chat APIs, other than your IP address, which by itself is not usually enough to identify a user, especially if you're sitting on a public network.
 
