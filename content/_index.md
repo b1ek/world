@@ -2,6 +2,8 @@
 title = "Welcome"
 +++
 
+{{ alert(title = "Contacting me", body = "I am going to be completely offline until 28th september.<br/>Do not expect me to reply before then<br/><br/>If it is work related or an emergency, write to email") }}
+
 ## Welcome to my world!
 Hello there! My name is Alice and i am a fullstack web dev. I like to start a lot of side projects, but finish only a few of them.
 
