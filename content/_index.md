@@ -42,6 +42,7 @@ Also you can view it [here](https://umami.blek.codes/share/ucLh7hS5xcXCpklV/worl
 </div>
 
 ## Projects
+{{ amber_banner() }}
 You can find the list of my projects [here](/projects).
 
 ## Blog
