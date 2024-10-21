@@ -1,69 +1,60 @@
-.amber-banner-wrapper {
-    position: absolute;
-    right: 0;
+.amber-banner {
+    background: #0005;
+    border: 1px solid #000;
+    border-radius: 8px;
+
+    height: 5rem;
+    width: fit-content;
+    padding: 1rem;
 
     display: flex;
-    align-items: end;
-    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 
-    .amber-banner {
-        background: #0005;
-        border: 1px solid #000;
-        border-radius: 8px;
+    margin-bottom: 2rem;
 
-        height: 5rem;
-        width: fit-content;
-        padding: 1rem;
-
+    * {
+        margin: 0; padding: 0;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    ul {
+        list-style: none;
         display: flex;
-        align-items: center;
-        gap: 1rem;
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+    }
+    small {
+        display: block;
+        color: #555555;
+    }
 
-        margin-bottom: 2rem;
-
-        * {
-            margin: 0; padding: 0;
-        }
-        h1 {
-            font-size: 1.5rem;
-        }
-        ul {
-            list-style: none;
-            display: flex;
-            margin-top: 0.5rem;
-            gap: 0.5rem;
-        }
-        small {
-            display: block;
-            color: #555555;
-        }
-
-        .amber-banner-icon {
-            height: 100%;
-            padding: 0 1rem;
-            @keyframes amber-banner-icon-breathe {
-                0%, 30% {
-                    transform: scale(1);
-                }
-                56% {
-                    transform: scale(1.1);
-                }
-                70%, to {
-                    transform: scale(1);
-                }
+    .amber-banner-icon {
+        height: 100%;
+        padding: 0 1rem;
+        @keyframes amber-banner-icon-breathe {
+            0%, 30% {
+                transform: scale(1);
             }
-            animation: amber-banner-icon-breathe 6s ease infinite;
+            56% {
+                transform: scale(1.1);
+            }
+            70%, to {
+                transform: scale(1);
+            }
         }
+        animation: amber-banner-icon-breathe 6s ease infinite;
     }
-    .amber-banner-title {
-        width: fit-content;
-        border-radius: 8px 8px 0 0;
-        padding: 0.2em 0.5em;
-        margin-right: 1rem;
-
-        
-        background: #0003;
-        border: 1px solid #000;
-        border-bottom: 0;
-    }
+}
+.amber-banner-title {
+    width: fit-content;
+    border-radius: 8px 8px 0 0;
+    padding: 0.2em 0.5em;
+    margin: 0;
+    margin-left: 1rem;
+    
+    background: #0003;
+    border: 1px solid #000;
+    border-bottom: 0;
 }

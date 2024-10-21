@@ -2,8 +2,6 @@
 title = "Welcome"
 +++
 
-{{ amber_banner() }}
-
 ## Welcome to my world!
 Hello there! My name is Alice and i am a fullstack web dev. I like to start a lot of side projects, but finish only a few of them.
 
@@ -44,6 +42,7 @@ Also you can view it [here](https://umami.blek.codes/share/ucLh7hS5xcXCpklV/worl
 </div>
 
 ## Projects
+{{ amber_banner() }}
 You can find the list of my projects [here](/projects).
 
 ## Blog
